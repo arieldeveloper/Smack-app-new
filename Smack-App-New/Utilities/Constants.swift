@@ -13,3 +13,4 @@ import Foundation
 //Segues: These identifiers are found in the storyboard and then referenced in the perform for segue function in the VC's
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
+let UNWIND = "unwindToChannel"
