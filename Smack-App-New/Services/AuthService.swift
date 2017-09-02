@@ -1,9 +1,9 @@
 //
 //  AuthService.swift
-//  Smack-App-New
+//  Smack
 //
-//  Created by Ariel Chouminov on 2017-09-01.
-//  Copyright © 2017 Ariel Chouminov. All rights reserved.
+//  Created by Jonny B on 7/17/17.
+//  Copyright © 2017 Jonny B. All rights reserved.
 //
 
 import Foundation
@@ -12,15 +12,15 @@ import Alamofire
 class AuthService {
     
     static let instance = AuthService()
-    let defaults = UserDefaults.standard
     
+    let defaults = UserDefaults.standard
     
     var isLoggedIn : Bool {
         get {
             return defaults.bool(forKey: LOGGED_IN_KEY)
         }
         set {
-            defaults.setValue(newValue, forKey: LOGGED_IN_KEY)
+            defaults.set(newValue, forKey: LOGGED_IN_KEY)
         }
     }
     
@@ -32,6 +32,7 @@ class AuthService {
             defaults.set(newValue, forKey: TOKEN_KEY)
         }
     }
+    
     var userEmail: String {
         get {
             return defaults.value(forKey: USER_EMAIL) as! String
@@ -41,14 +42,12 @@ class AuthService {
         }
     }
     
-    
     func registerUser(email: String, password: String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
         
         let header = [
             "Content-Type": "application/json; charset=utf-8"
-            
         ]
         
         let body: [String: Any] = [
@@ -63,15 +62,9 @@ class AuthService {
             } else {
                 completion(false)
                 debugPrint(response.result.error as Any)
+                print("fail")
             }
         }
-        
-        
-        
-        
-        
-        
-        
     }
     
     
@@ -84,9 +77,5 @@ class AuthService {
     
     
     
-    
-    
-    
-    
-    
 }
+
