@@ -21,6 +21,7 @@
 		FC142A121F57A665002869B8 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC142A111F57A665002869B8 /* CreateAccountVC.swift */; };
 		FCAC6B351F59DAA700998F84 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B341F59DAA700998F84 /* AuthService.swift */; };
 		FCAC6B371F5A400100998F84 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B361F5A400100998F84 /* RoundedButton.swift */; };
+		FCAC6B391F5B7FF000998F84 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B381F5B7FF000998F84 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FC142A111F57A665002869B8 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		FCAC6B341F59DAA700998F84 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FCAC6B361F5A400100998F84 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FCAC6B381F5B7FF000998F84 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				FCAC6B341F59DAA700998F84 /* AuthService.swift */,
+				FCAC6B381F5B7FF000998F84 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				FC142A051F57448C002869B8 /* ChatVC.swift in Sources */,
 				FCAC6B371F5A400100998F84 /* RoundedButton.swift in Sources */,
 				FC142A071F57449B002869B8 /* ChannelVC.swift in Sources */,
+				FCAC6B391F5B7FF000998F84 /* UserDataService.swift in Sources */,
 				FC142A121F57A665002869B8 /* CreateAccountVC.swift in Sources */,
 				FCAC6B351F59DAA700998F84 /* AuthService.swift in Sources */,
 				FC142A101F576B7E002869B8 /* LoginVC.swift in Sources */,
