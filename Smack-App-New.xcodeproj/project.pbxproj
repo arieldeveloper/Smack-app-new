@@ -24,6 +24,7 @@
 		FCAC6B391F5B7FF000998F84 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B381F5B7FF000998F84 /* UserDataService.swift */; };
 		FCAC6B3B1F5B943700998F84 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B3A1F5B943700998F84 /* AvatarPickerVC.swift */; };
 		FCAC6B3E1F5B972F00998F84 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B3D1F5B972F00998F84 /* AvatarCell.swift */; };
+		FCAC6B401F5CF27600998F84 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC6B3F1F5CF27600998F84 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		FCAC6B381F5B7FF000998F84 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		FCAC6B3A1F5B943700998F84 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		FCAC6B3D1F5B972F00998F84 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		FCAC6B3F1F5CF27600998F84 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				FC142A091F575354002869B8 /* GradientView.swift */,
 				FCAC6B361F5A400100998F84 /* RoundedButton.swift */,
 				FCAC6B3D1F5B972F00998F84 /* AvatarCell.swift */,
+				FCAC6B3F1F5CF27600998F84 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				FC142A051F57448C002869B8 /* ChatVC.swift in Sources */,
 				FCAC6B3B1F5B943700998F84 /* AvatarPickerVC.swift in Sources */,
 				FCAC6B371F5A400100998F84 /* RoundedButton.swift in Sources */,
+				FCAC6B401F5CF27600998F84 /* CircleImage.swift in Sources */,
 				FC142A071F57449B002869B8 /* ChannelVC.swift in Sources */,
 				FCAC6B391F5B7FF000998F84 /* UserDataService.swift in Sources */,
 				FC142A121F57A665002869B8 /* CreateAccountVC.swift in Sources */,
