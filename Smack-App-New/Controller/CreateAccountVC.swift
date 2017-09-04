@@ -84,6 +84,7 @@ class CreateAccountVC: UIViewController {
         //sets bgColor to random rgb color
         bgColor = UIColor(red: r, green: g, blue: b, alpha: 1)
         
+        avatarColor = "[\(r), \(g), \(b), 1]"
         UIView.animate(withDuration: 0.2) {
             self.profileImg.backgroundColor = self.bgColor
             
