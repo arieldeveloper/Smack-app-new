@@ -24,14 +24,23 @@ class ChannelVC: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        setupUserInfo()
+    }
+    
     @objc func userDataDidChange(_ notif: Notification) {
-        
+        setupUserInfo()
+    }
+    
+    
+    
+    func setupUserInfo() {
         if AuthService.instance.isLoggedIn {
             loginBtn.setTitle(UserDataService.instance.name, for: .normal)
             
-        profileImg.image = UIImage(named: UserDataService.instance.avatarName)
+            profileImg.image = UIImage(named: UserDataService.instance.avatarName)
             
-        profileImg.backgroundColor = UserDataService.instance.returnUIColour(components: UserDataService.instance.avatarColor)
+            profileImg.backgroundColor = UserDataService.instance.returnUIColour(components: UserDataService.instance.avatarColor)
             
         } else {
             loginBtn.setTitle("Login", for: .normal)
